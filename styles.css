@@ -9,7 +9,13 @@ html, body, .container {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.head-img {
+  height: 50px;
+  width: auto;
+}
+
 .square {
+  margin-top: 50px;
   width: 350px;
   height: 150px;
   display: flex;
@@ -25,5 +31,16 @@ html, body, .container {
 
 .footer {
   position: absolute;
-  bottom: 25px;
+  bottom: 0;
+}
+
+.hearts-img {
+  height: 60px;
+  width: auto;
+  vertical-align: middle;
+}
+
+.clock-img {
+  height: 80px;
+  width: auto;
 }
